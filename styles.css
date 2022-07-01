@@ -1,0 +1,62 @@
+
+   
+    @charset "utf-8";
+    /* CSS Document */
+    
+    *{
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    
+    div {
+        display: inline-block;
+        width: 33.3%;
+        height: 360px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 250px;
+        
+    
+    }
+    #Bio {
+        height: 360px;
+        background-color: #ff0000bc;
+        display: inline-block;
+        
+        
+    }
+    
+    
+    #picture {
+        float: right;
+    
+        display: inline-block;
+        background-color: #ffff0096;
+        right: 0%;
+    
+        
+    
+        
+    }
+    #Education {
+        display: block;
+        width: 33.3%;
+        margin-left: 33%;
+        background-color: #4a4506;
+    }
+    #hobbies {
+        background-color: darkorchid;
+        
+    }
+    #Contact {
+        background-color: green;
+        right: 0%;
+        float: right;
+    }
+    #Bio:hover{background-color: black}
+    #picture:hover{background-color: aqua}
+    #Education:hover{background-color: antiquewhite}
+    #hobbies:hover{background-color: darkgreen}
+    #Contact:hover{background-color: #b9d928}
